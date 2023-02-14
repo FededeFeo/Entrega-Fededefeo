@@ -1,0 +1,32 @@
+/* Barra navegacion */
+
+.header {
+    max-width: 100%;
+}
+
+
+/*.menu__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(183, 29, 29);
+    text-align: center;
+    justify-content: center;
+}
+
+.boton__menu {
+    float: left;
+}
+
+.boton__menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+.boton__menu a:hover {
+    background-color: black;
+}

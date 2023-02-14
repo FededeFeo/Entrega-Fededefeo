@@ -1,0 +1,197 @@
+/*Educadores*/
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+.grid-conteinerRAMAS {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  /*width: 550px;
+   height: 400px;*/
+  margin: 0 auto;
+  /*justify-content: center;
+   align-items: center;*/ }
+
+@media (max-width: 768px) {
+  .grid-conteinerRAMAS {
+    display: block;
+    margin: 0 auto;
+    align-items: end;
+    justify-items: center; } }
+
+.educadores {
+  text-align: center;
+  padding: 5px;
+  font-size: 50px; }
+
+.categoria {
+  text-align: left;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center; }
+
+.rama {
+  padding: 5px;
+  text-align: center; }
+
+.jefe__rama {
+  padding: 5px;
+  font-weight: bold; }
+
+h4 {
+  text-align: center; }
+
+.dirigente {
+  text-align: center;
+  font-size: 30px; }
+
+.imagen__rama {
+  padding: 5px;
+  margin: auto;
+  display: block;
+  width: 25%; }
+
+/*Contacto*/
+.contacto {
+  text-align: center;
+  padding: 5px;
+  font-size: 50px; }
+
+.mapa {
+  width: 400px;
+  padding: 10px 10px; }
+
+/*FOTOS*/
+.Fotos {
+  text-align: center;
+  padding: 1px;
+  font-size: 50px; }
+
+.Bolson {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; }
+
+@media (max-width: 768px) {
+  .Bolson {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr); } }
+
+.foto__bolson {
+  width: 100%;
+  height: auto; }
+
+.Tandil {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; }
+
+@media (max-width: 768px) {
+  .Tandil {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr); } }
+
+.foto__tandil {
+  width: 100%;
+  height: auto; }
+
+.titulo__fotos {
+  padding: 5px;
+  font-size: 35px;
+  text-align: center; }
+
+/*Noticias*/
+.foto__noticias {
+  padding: 10px;
+  margin: auto;
+  display: block;
+  width: 30%; }
+
+.Noticias {
+  text-align: center;
+  padding: 5px;
+  font-size: 50px; }
+
+.titulo__noticias {
+  padding: 5px;
+  font-size: 35px; }
+
+.texto__noticias {
+  color: #011638;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 2rem; }
+
+/* Index */
+.nuestra__historia {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px; }
+
+#footer {
+  position: absolute;
+  margin-top: 15%;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(#b71c1c, #011638);
+  font-size: medium;
+  padding: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold; }
+
+/* Barra navegacion */
+.header {
+  max-width: 100%; }
+
+/*.menu__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(183, 29, 29);
+    text-align: center;
+    justify-content: center;
+}
+
+.boton__menu {
+    float: left;
+}
+
+.boton__menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+.boton__menu a:hover {
+  background-color: black; }
+
+body {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 100%; }
+
+.header {
+  width: 100%;
+  height: auto; }
+
+#inicio {
+  background-image: linear-gradient(#011638, #b71c1c);
+  z-index: 1; }
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px white; }
+
+p {
+  color: black;
+  font-family: 'Times New Roman', Times, serif; }

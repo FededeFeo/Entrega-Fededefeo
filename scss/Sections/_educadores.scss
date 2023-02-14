@@ -1,0 +1,62 @@
+/*Educadores*/
+
+.grid-conteinerRAMAS {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    /*width: 550px;
+   height: 400px;*/
+    margin: 0 auto;
+    /*justify-content: center;
+   align-items: center;*/
+}
+
+@media (max-width: 768px) {
+    .grid-conteinerRAMAS {
+        display: block;
+        margin: 0 auto;
+        align-items: end;
+        justify-items: center;
+    }
+}
+
+
+.educadores {
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+
+.categoria {
+    text-align: left;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rama {
+    padding: 5px;
+    text-align: center;
+}
+
+.jefe__rama {
+    padding: 5px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+.dirigente {
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagen__rama {
+    padding: 5px;
+    margin: auto;
+    display: block;
+    width: 25%;
+}
