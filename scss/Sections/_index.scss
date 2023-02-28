@@ -1,8 +1,32 @@
 /* Index */
 
-.nuestra__historia {
+.historia {
     color: black;
     padding: 20px;
     text-align: center;
     font-size: 50px;
-}
+    }
+
+   .nuestra__historia{
+        /*background-image: url('../imagenes/Index/iglesia\ 2.png');*/
+        width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background: linear-gradient(to bottom, RGB(0 0 0 / .5),RGB(0 0 0 / .5)),url("../imagenes/Index/iglesia\ 2.png");
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .texto__historia{
+        text-align: center;
+        position: absolute;
+        color: white;
+        width: 90%;
+        
+    }
+
+
+
+

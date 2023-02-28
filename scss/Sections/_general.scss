@@ -1,0 +1,105 @@
+/* Barra navegacion */
+
+.header {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px white
+        /*borde*/
+}
+
+#inicio {
+    background-image: url('../imagenes/Header/Grupo\ verano.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 150vh;
+}
+
+/*@media (max-width: 767px){
+#inicio {
+    padding: 120px 0px 60px 0px;
+}}
+
+@media (max-width: 1024px){
+#inicio {
+    padding: 120px 0px 100px 0px;
+}}*/
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*.menu__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(183, 29, 29);
+    text-align: center;
+    justify-content: center;
+}
+
+.boton__menu {
+    float: left;
+}
+
+.boton__menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+.boton__menu a:hover {
+    background-color: black;
+}
+
+
+
+/* Footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+
+.linkedin {
+    width: 25px;
+}
+
+.github {
+    width: 25px;
+}
+
+.texto__footer {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.link__arriba {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: grey;
+    
+}
+
