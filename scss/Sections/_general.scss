@@ -3,6 +3,7 @@
 .header {
     max-width: 100%;
     height: auto;
+    background-color: none;
 }
 
 
@@ -15,7 +16,7 @@ h1 {
         /*borde*/
 }
 
-#inicio {
+#inicio-grupo {
     background-image: url('../imagenes/Header/Grupo\ verano.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
