@@ -603,17 +603,13 @@ div.gallery ul li img:hover {
     align-items: center; }
   .navbar {
     width: 1300px; }
-  #inicio {
-    /*.grupo {
-            width: 1500px;// otra que podes poner es 1330px o borrar este ".grupo"
-        }*/ }
-    #inicio h1 {
-      position: absolute;
-      top: 7rem;
-      left: 7rem;
-      font-size: 6em !important;
-      width: 1300px;
-      width: 85%; } }
+  h1 {
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    font-size: 6em !important;
+    width: 1300px;
+    width: 85%; } }
 
 @media screen and (min-width: 2560px) {
   #inicio h1 {
