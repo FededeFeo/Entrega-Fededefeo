@@ -111,7 +111,7 @@ p {
 .card {
   margin: 40px;
   position: relative;
-  max-width: 250px;
+  max-width: 50%;
   max-height: auto;
   box-shadow: 0 40px 60px -6px black; }
 
@@ -147,6 +147,24 @@ p {
 .card:hover .card-desc {
   opacity: 1;
   height: 100%; }
+
+@media (max-width: 1024px) {
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center; } }
+
+@media (max-width: 460px) {
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center; } }
 
 /*Contacto*/
 .contact-wrapper {
@@ -304,7 +322,8 @@ hr {
     width: 280px; }
   .direct-contact-container {
     margin-top: 60px;
-    max-width: 280px; }
+    max-width: 280px;
+    align-items: center; }
   .social-media-list {
     left: 0; }
   .social-media-list .Redes-contacto {
@@ -325,6 +344,13 @@ hr {
 .wrapper {
   width: 40%;
   margin: 40px auto; }
+
+.fotos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center; }
 
 div.gallery {
   margin-top: 30px; }
@@ -367,6 +393,22 @@ div.gallery ul li img:hover {
   margin-left: -100px;
   top: 25%;
   left: 25%; }
+
+@media (max-width: 1024px) {
+  .fotos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 460px) {
+  .fotos-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center; } }
 
 /*Noticias*/
 .card-novedades {

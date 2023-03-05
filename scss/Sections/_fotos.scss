@@ -4,6 +4,14 @@
 .wrapper {
 	width: 40%;
 	margin: 40px auto;
+	}
+
+.fotos-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
 }
 
 div.gallery {
@@ -58,3 +66,20 @@ div.gallery ul li img:hover {
 }
 
 
+@media (max-width: 1024px){
+    .fotos-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		justify-content: center;
+		align-items: center;
+	}}
+
+@media (max-width: 460px){
+	.fotos-grid{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		justify-content: center;
+		align-items: center;
+	}}
