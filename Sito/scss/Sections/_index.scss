@@ -1,0 +1,182 @@
+/* Index */
+.navbar-toggler {
+    background-color: white;
+}
+
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .grupo {
+        width: 100%;
+        opacity: .7;
+    }
+
+    .tituloIndex {
+        font-family: 'Kotta One', serif;
+        -webkit-text-stroke: 1px black;
+        letter-spacing: 2px;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: initial;
+        position: absolute;
+             z-index: 1;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    #index {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #index .bg-body-tertiary {
+        background-color: #00000000 !important;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+        margin-right: 5rem;
+    }
+
+    .navbar-expand-lg {
+        justify-content: space-evenly;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    #inicio {
+        .grupo {
+            width: 100%;
+            height: 50rem;
+            position: relative;
+            top: 0;
+            left: 0;
+
+        }
+
+        .tituloIndex {
+            letter-spacing: 0px;
+            position: absolute;
+            top: 8rem;
+            left: 5rem;
+            font-size: 4em !important;
+            width: 81%;
+        }
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #inicio {
+        .tituloIndex {
+            position: absolute;
+            top: 9rem;
+            left: 14rem;
+            font-size: 4em !important;
+            width: 61%;
+        }
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 1300px;
+    }
+
+  
+        .tituloIndex {
+            position: absolute;
+            top: 7rem;
+            left: 7rem;
+            font-size: 6em !important;
+            width: 1300px;
+            width: 85%;
+
+        }
+    }
+
+
+@media screen and (min-width:2560px) {
+    #inicio {
+        .tituloIndex {
+            position: absolute;
+            top: 5rem;
+            left: 42rem;
+            font-size: 7em !important;
+            width: 45%;
+        }
+    }
+}
+
+.unidad {
+    width: 100%;
+
+    .nuestra__historia {
+        h2 {
+            font-family: 'Kotta One', serif;
+            font-size: 2em !important;
+        }
+
+        .texto__historia {
+            text-align: center;
+            font-style: oblique;
+        }
+
+        .iglesia {
+            width: 100%;
+        }
+    }
+}
+
+.nuestra__historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+@media screen and (min-width:768px) {
+
+    .unidad {
+
+        .nuestra__historia {
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 3em !important;
+            }
+        }
+    }
+}
+
+    @media screen and (min-width:1440px) {
+        .nuestra__historia {
+            width: 1300px;
+        }
+    }
