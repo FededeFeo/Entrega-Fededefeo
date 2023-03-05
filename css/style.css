@@ -322,58 +322,6 @@ hr {
     width: 99%; } }
 
 /*FOTOS*/
-/*.Fotos {
-    text-align: center;
-    padding: 1px;
-    font-size: 50px;
-}
-
-.Bolson {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-@media (max-width: 768px) {
-    .Bolson {
-        display: grid;
-        margin: auto;
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-
-.foto__bolson {
-    width: 100%;
-    height: auto;
-}
-
-.Tandil {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-@media (max-width: 768px) {
-    .Tandil {
-        display: grid;
-        margin: auto;
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-
-.foto__tandil {
-    width: 100%;
-    height: auto;
-}
-
-.titulo__fotos {
-    padding: 5px;
-    font-size: 35px;
-    text-align: center;
-}
-*/
 .wrapper {
   width: 40%;
   margin: 40px auto; }
@@ -385,7 +333,7 @@ div.gallery ul {
   list-style-type: none;
   margin-left: 35px; }
 
-/* animation */
+/* Animacion */
 div.gallery ul li, div.gallery li img {
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -401,12 +349,9 @@ div.gallery ul li {
   padding: 5px;
   z-index: 0; }
 
-/* Make sure z-index is higher on hover */
-/* Ensure that hover image overlapped the others */
 div.gallery ul li:hover {
   z-index: 5; }
 
-/* Image is position nicely under li */
 div.gallery ul li img {
   position: relative;
   left: 0;
@@ -423,56 +368,7 @@ div.gallery ul li img:hover {
   top: 25%;
   left: 25%; }
 
-/* Responsive hack 
-@media only screen and (min-width: 499px) and (max-width: 1212px) {
-	.wrapper {
-		width: 500px;
-	}
-}
-
-@media only screen and (max-width: 498px) {
-	.wrapper {
-		width: 300px;
-	}
-
-	div.gallery ul {
-		list-style-type: none;
-		margin: 0;
-	}
-}*/
 /*Noticias*/
-/*#inicio-noticias {
-    background-image: url('../imagenes/header/Noticias.jpeg');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 150vh;
-}
-
-.foto__noticias {
-    padding: 10px;
-    margin: auto;
-    display: block;
-    width: 30%;
-}
-
-.Noticias {
-    text-align: center;
-    padding: 5px;
-    font-size: 50px;
-}
-
-.titulo__noticias {
-    padding: 5px;
-    font-size: 35px;
-}
-
-.texto__noticias {
-    color: #011638;
-    font-weight: bolder;
-    font-size: 25px;
-    padding: 2rem;
-}*/
 .card-novedades {
   width: 100%;
   display: grid;
